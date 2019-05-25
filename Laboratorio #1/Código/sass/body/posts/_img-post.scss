@@ -1,0 +1,15 @@
+.author-img{
+  width: 75px;
+  border: 5px solid white;
+  border-radius: 75px;
+}
+
+.post-img{
+  border: 5px solid white;
+  max-width: 100%;
+}
+
+.post-container__img{
+  display: flex;
+  align-items: center;
+}

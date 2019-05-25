@@ -1,0 +1,22 @@
+header{
+  background-color: $wine-main;
+  height: 100px;
+}
+
+.logo{
+  width: 150px;
+  margin: 0 auto;
+  display: block;
+}
+
+#hero{
+  position: absolute;
+  top: -90px;
+}
+
+#hero-banner{
+  position: relative;
+  overflow: hidden;
+  height: 250px;
+  z-index: -1;
+}
