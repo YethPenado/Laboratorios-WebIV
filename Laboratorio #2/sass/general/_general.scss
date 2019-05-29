@@ -1,0 +1,57 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: $font-principal;
+}
+
+a{
+  text-decoration: none;
+  cursor: pointer;
+}
+
+button{
+  cursor: pointer;
+}
+
+h1, h2{
+  font-family: $font-titular;
+  text-align: center;
+  margin: 30px 0;
+}
+
+h1{
+  font-size: 5em;
+}
+
+h2{
+  font-size: 4em;
+}
+
+h3, h4{
+  color: white;
+  text-align: center;
+}
+
+h3{
+  font-size: 2em;
+  margin: 25px 0;
+}
+
+h4{
+  font-size: 1.2em;
+}
+
+li{
+  list-style: none;
+}
+
+p{
+  color: white;
+  margin: 15px 0;
+  letter-spacing: 1px;
+}
+
+.bold-text{
+  font-weight: bold;
+  letter-spacing: 1px;
+}
