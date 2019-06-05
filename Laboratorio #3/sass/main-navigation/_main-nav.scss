@@ -1,0 +1,23 @@
+#main-navigation{
+  display: flex;
+  justify-content: center;
+  margin: 25px 0;
+}
+
+.main-nav__a{
+  color: $wine-main;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.main-nav__item{
+  display: inline-block;
+  padding: 0 10px;
+}
+
+.main-nav__icon{
+  width: 48px;
+}
