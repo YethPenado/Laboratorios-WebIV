@@ -1,0 +1,31 @@
+@media (min-width: $breakpoint-lg){
+  body{
+    background-color: #edf2f5;
+  }
+  .services__inner{
+    max-width: 50%;
+    margin: 0 auto;
+  }
+  .services__title{
+    text-align: center;
+  }
+  .testimonials__inner{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .testimonials-title{
+    width: 100%;
+    text-align: center;
+  }
+  .testimonial{
+    flex-basis: 30%;
+    margin: 0 1%;
+  }
+  .contact__inner{
+    margin: 0 auto;
+    max-width: 50%;
+  }
+  .contact__title{
+    text-align: center;
+  }
+}

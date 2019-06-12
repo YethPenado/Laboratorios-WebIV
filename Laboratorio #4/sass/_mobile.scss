@@ -1,4 +1,3 @@
-/* Google fonts */
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,400i,700&display=swap');
 
 * {
@@ -45,7 +44,7 @@ input[type="submit"] {
 }
 
 .site-header {
-  background-color: #ccc;
+  background-color: black;
   padding: 20px;
 }
 
@@ -99,4 +98,16 @@ input[type="submit"] {
 
 .contact__item {
   margin-bottom: 20px;
+}
+
+.header__title {
+  color: white;
+}
+
+.site-header__contact{
+  color: white;
+}
+
+.email{
+  color: #FFD500;
 }
