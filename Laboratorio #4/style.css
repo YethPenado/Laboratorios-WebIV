@@ -1,0 +1,102 @@
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,400i,700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Montserrat, sans-serif;
+  font-weight: 700;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+label {
+  display: block;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+label::after {
+  content: ":";
+}
+
+input[type="text"], textarea {
+  width: 100%;
+  padding: 5px;
+  font-size: 1rem;
+}
+
+input[type="submit"] {
+  padding: 5px 15px;
+  font-size: 1rem;
+  background-color: #ccc;
+  font-weight: 700;
+}
+
+.site-header {
+  background-color: #ccc;
+  padding: 20px;
+}
+
+.services {
+  padding: 20px;
+}
+
+.services__inner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 5px;
+}
+
+.services__title {
+  grid-column: 1 / span 2;
+}
+
+.services h3 {
+  margin: 0;
+  padding: 10px;
+  font-size: 1rem;
+}
+
+.testimonials__inner {
+  padding: 20px;
+  background-color: #eee;
+}
+
+.testimonial {
+  margin: 0;
+  font-style: italic;
+  font-size: 1.125rem;
+  margin-bottom: 30px;
+}
+
+.testimonial__person {
+  font-size: 0.875rem;
+  font-style: normal;
+  margin-top: 10px;
+}
+
+.testimonial__person img {
+  max-width: 50px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.contact__inner {
+  padding: 20px;
+}
+
+.contact__item {
+  margin-bottom: 20px;
+}
