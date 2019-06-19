@@ -1,0 +1,29 @@
+* {
+  color: #555555;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: grid;
+}
+
+.a__item {
+  text-decoration: none;
+}
+
+.language__item {
+  display: inline-block;
+  //margin: 0 10px;
+}
+
+.nav__item {
+  display: inline-block;
+  //margin: 0 3rem;
+}
+
+#search {
+  border: 1px solid #555555;
+  border-radius: 15px;
+  padding: 3px 10px;
+}
