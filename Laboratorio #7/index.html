@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="shortcut icon" type="image/x-icon" href="img/icon.jpg"/>
+  <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
+  <link rel="manifest" href="manifesto.json">
+  <link rel="stylesheet" href="css/main.css"/>
+  <title>Lazy Loading example</title>
+</head>
+
+<body>
+  <h1>Valkyries</h1>
+  <img class="lazy icon" src="img/white-castle.jpg" 
+  data-src="img/icon.jpg"
+  data-srcset="img/icon.jpg" width="100px" alt="Valkyrie">
+
+  <div class="container">
+    <div class="info">
+      <h2>Sigrun – The Valkyrie Queen</h2>
+      <p>Sigrún (Old Norse "victory rune"). She is immensely powerful, with Mimir saying that she is the strongest of all the Valkyries, with the presumed exception of Freya, the former Valkyrie Queen. Despite being referred to as the Queen of the Valkyries, Sigrún expressed that she only ruled in the absence of the true queen, technically making her a Regent.</p>
+      <img class="lazy" src="img/white-castle.jpg" 
+      data-src="img/sigrun.png"
+      data-srcset="img/sigrun.png" alt="Valkyrie">
+    </div>
+
+    <div class="info">
+      <h2>Freya – The Goddess and the (truly) Valkyrie Queen</h2>
+      <p>Freya carries her sword everywhere, despite the fact that she's unable to use it in combat. This demonstrates that she has not given up on her search for recovering her warrior spirit and her Valkyrie wings to get revenge on Odin. With the intent of reclaiming her Valkyrie powers, it is clear that Freya has not given up her drive for vengeance and she may never let it go.</p>
+      <img class="lazy" src="img/white-castle.jpg" 
+      data-src="img/freya.jpg"
+      data-srcset="img/freya.jpg" alt="Valkyrie">
+    </div>
+
+    <div class="info">
+      <h2>Gondul – The Fire Valkyrie</h2>
+      <p>In Norse mythology, Gondul is a valkyrie. In legend, Gondul was considered the most beautiful of the Valkyries. Known of her silver tongue, sharp wit and struck a figure so stunning it would literally drive men insane. Thus, Odin forbid her from entering Midgard after a time, for insanity is not a welcome trait in Valhalla. Said by Mimir.</p>
+      <img class="lazy" src="img/white-castle.jpg" 
+      data-src="img/gondul.jpg"
+      data-srcset="img/gondul.jpg" alt="Valkyrie">
+    </div>
+    
+    <div class="info">
+      <h2>Hildr – The Ice Valkyrie</h2>
+      <p>Hildr is attested in the Prose Edda as Högni's daughter and Hedin's wife in the Hjaðningavíg. She had the power to revive the dead in battlefields and used it to maintain the everlasting battle between Hedin and Högni.
+      Hildr is also mentioned along with other valkyries in Völuspá, Darraðarljóð and other Old Norse poems. The Old Norse word hildr is a common noun meaning "battle" and it is not always clear when the poets had the valkyrie in mind, as a personification of battle.</p>
+      <img class="lazy" src="img/white-castle.jpg" 
+      data-src="img/hildr.jpg"
+      data-srcset="img/hildr.jpg" alt="Valkyrie">
+    </div>
+  </div>
+
+  <script src="js/images.js"></script>
+</body>
+</html>

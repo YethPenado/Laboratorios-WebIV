@@ -1,0 +1,14 @@
+{
+  "short_name": "Valkyries",
+  "name": "God of War - Valkyries",
+  "icons": [
+    {
+      "src": "img/icon.jpg",
+      "sizes": "100x120",
+      "type": "image/jpg"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait"
+}
